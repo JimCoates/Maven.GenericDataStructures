@@ -9,6 +9,14 @@ public class Entry<K, V> {
         this.value = value;
     }
 
+    public void setKey(K key) {
+        this.key = key;
+    }
+
+    public void setValue(V value) {
+        this.value = value;
+    }
+
     public K getKey() {
         return key;
     }
